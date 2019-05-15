@@ -11,9 +11,8 @@ public class SheetsQuickstart {
 
         SheetsMgr tcUtil = SheetsMgr.getInstance();
 
-
-//        System.out.println("----Print all:");
-//        System.out.println(tcUtil.toString());
+        System.out.println("----Print all:");
+        System.out.println(tcUtil.toString());
         System.out.println("----Column size:");
         System.out.println(tcUtil.getColumnSize());
         System.out.println("----Row size:");
